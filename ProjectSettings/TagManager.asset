@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - jumpable
+  - enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - gun
   - Water
   - UI
   - 
