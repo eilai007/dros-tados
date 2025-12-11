@@ -40,7 +40,7 @@ public class shoot : MonoBehaviour
             Debug.DrawLine(firePoint.position, hit.point, Color.red, 1f);
             if (hit.transform.tag == "enemy")
             {
-                
+                hit.transform.GetComponent<enemy>().TakeDamage(damage);
             }
         }
     }
